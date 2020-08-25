@@ -1,5 +1,5 @@
 {
-    "name": "samrat131/my-laravel-app",
+    "name": "samrat131/laravel-options-table",
     "description": "Add delete retrive settings/options to laravel application",
     "license": "MIT",
     "keywords": ["laravel", "laravel-options", "options", "settings"],
@@ -14,7 +14,17 @@
     },
     "autoload": {
         "psr-4": {
-            "MyLaravelApp\\": "src/"
+            "Samrat131\\LaravelOptionsTable\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Samrat131\\LaravelOptionsTable\\OptionServiceProvider"
+            ],
+            "aliases": {
+                "Option": "Samrat131\\LaravelOptionsTable\\OptionFacade"
+            }
         }
     },
     "minimum-stability": "stable"

@@ -1,6 +1,6 @@
 <?php
 
-namespace MyLaravelApp;
+namespace Samrat131\LaravelOptionsTable;
 
 use Illuminate\Database\Eloquent\Model;
 

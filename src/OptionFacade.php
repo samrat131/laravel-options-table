@@ -1,6 +1,6 @@
-<?php 
+<?php
 
-namespace MyLaravelApp;
+namespace Samrat131\LaravelOptionsTable;
 
 use Illuminate\Support\Facades\Facade;
 

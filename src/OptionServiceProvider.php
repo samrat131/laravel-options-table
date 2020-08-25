@@ -1,13 +1,13 @@
-<?php 
+<?php
 
-namespace MyLaravelApp;
+namespace Samrat131\LaravelOptionsTable;
 
 use Illuminate\Support\ServiceProvider;
-use MyLaravelApp\Option;
+use Samrat131\LaravelOptionsTable\Option;
 
-class OptionServiceProvider extends ServiceProvider 
+class OptionServiceProvider extends ServiceProvider
 {
-	
+
 	public function boot()
 	{
 		$this->publishes([
