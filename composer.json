@@ -1,0 +1,21 @@
+{
+    "name": "samrat131/my-laravel-app",
+    "description": "Add delete retrive settings/options to laravel application",
+    "license": "MIT",
+    "keywords": ["laravel", "laravel-options", "options", "settings"],
+    "authors": [
+        {
+            "name": "Samrat",
+            "email": "samrat0131@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "MyLaravelApp\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
