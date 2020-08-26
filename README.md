@@ -2,9 +2,14 @@
 
 This package allow to add delete retrive options value in laravel applications.
 
-## installation
+## Installation
 
-edit config/app.php file and add following lines (only for laravel below v5.5)
+To use laravel-options-table in your project, please use Composer to add the package to your laravel applications
+```
+composer require appstract/laravel-options
+```
+
+Edit `config/app.php` file and add following lines (only for laravel version below 5.5)
 
 ```
 'providers' => [
@@ -19,6 +24,12 @@ edit config/app.php file and add following lines (only for laravel below v5.5)
 	'Option' => Samrat131\LaravelOptionsTable\OptionFacade::class,
 ]
 ```
+
+### Vendor Publish & Migrate
+
+Run this command in terminal `php artisan vendor:publish --tag="migrations"` to publish migration file of this package.
+
+After that run `php artisan migrate` to migrate the table. This will create `options` table in your database.
 
 ## Usage
 
