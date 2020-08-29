@@ -6,7 +6,7 @@ This package allow to add delete retrive options value in laravel applications.
 
 To use laravel-options-table in your project, please use Composer to add the package to your laravel applications
 ```
-composer require appstract/laravel-options
+composer require samrat131/laravel-options-table
 ```
 
 Edit `config/app.php` file and add following lines (only for laravel version below 5.5)
